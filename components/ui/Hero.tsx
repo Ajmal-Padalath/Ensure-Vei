@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import heroBg from "../../public/hero-bg.png";
 import { CheckCircle2, ChevronRight, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -109,7 +110,7 @@ export default function Hero({ onOpenConsultationModal }: HeroProps) {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-secondary/10 rounded-3xl blur-2xl -z-10" />
             <div className="relative w-full h-full rounded-3xl overflow-hidden glass shadow-xl border border-white/20 dark:border-slate-800/40 p-4">
               <Image
-                src="/hero-bg.png"
+                src={heroBg}
                 alt="Ensure Vei - Vehicle, Life, Health, Family Protection Services India"
                 fill
                 priority
