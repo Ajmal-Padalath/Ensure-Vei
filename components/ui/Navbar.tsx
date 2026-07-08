@@ -71,7 +71,7 @@ export default function Navbar() {
                 <Shield className="h-6 w-6 text-accent" />
               </div>
               <span className="font-bold text-xl tracking-tight text-primary dark:text-white">
-                Secure<span className="text-secondary">Shield</span>
+                Ensure<span className="text-secondary">Vei</span>
               </span>
             </a>
           </div>

@@ -9,35 +9,35 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.secureshieldinsurance.in"),
-  title: "Protect What Matters Most | SecureShield Insurance India",
+  metadataBase: new URL("https://www.EnsureVei.in"),
+  title: "Protect What Matters Most | Ensure Vei Insurance India",
   description: "Compare the best insurance plans from India's leading insurers. Get expert guidance and quotes in 2 minutes for Vehicle, Life, Health, Term, Travel, Home, and Business Insurance. Dedicated claim support.",
-  keywords: "insurance india, vehicle insurance, health insurance, life insurance, term plan, travel insurance, claim support, best premium rates, secure shield insurance",
-  authors: [{ name: "SecureShield Insurance India" }],
+  keywords: "insurance india, vehicle insurance, health insurance, life insurance, term plan, travel insurance, claim support, best premium rates, Ensure Vei insurance",
+  authors: [{ name: "Ensure Vei Insurance India" }],
   openGraph: {
-    title: "Protect What Matters Most | SecureShield Insurance India",
+    title: "Protect What Matters Most | Ensure Vei Insurance India",
     description: "Compare the best insurance plans from India's leading insurers. Get expert guidance and quotes in 2 minutes for Vehicle, Life, Health, Term, Travel, Home, and Business Insurance.",
     type: "website",
     locale: "en_IN",
-    url: "https://www.secureshieldinsurance.in",
-    siteName: "SecureShield Insurance",
+    url: "https://www.EnsureVei.in",
+    siteName: "Ensure Vei Insurance",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "SecureShield Insurance India - Compare & Save",
+        alt: "Ensure Vei Insurance India - Compare & Save",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Protect What Matters Most | SecureShield Insurance India",
+    title: "Protect What Matters Most | Ensure Vei Insurance India",
     description: "Compare the best insurance plans from India's leading insurers. Get quotes in 2 minutes.",
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://www.secureshieldinsurance.in",
+    canonical: "https://www.EnsureVei.in",
   },
 };
 
@@ -49,10 +49,10 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "InsuranceAgency",
-    "name": "SecureShield Insurance India",
-    "alternateName": "SecureShield Insurance",
+    "name": "Ensure Vei Insurance India",
+    "alternateName": "Ensure Vei Insurance",
     "description": "Compare the best insurance plans from India's leading insurers. Get expert guidance and claim assistance.",
-    "url": "https://www.secureshieldinsurance.in",
+    "url": "https://www.EnsureVei.in",
     "telephone": "+919876543210",
     "priceRange": "$$",
     "address": {
@@ -89,10 +89,10 @@ export default function RootLayout({
       "availableLanguage": ["English", "Hindi", "Kannada"]
     },
     "sameAs": [
-      "https://facebook.com/secureshield",
-      "https://twitter.com/secureshield",
-      "https://instagram.com/secureshield",
-      "https://linkedin.com/company/secureshield"
+      "https://facebook.com/Ensure-Vei",
+      "https://twitter.com/Ensure-Vei",
+      "https://instagram.com/Ensure-Vei",
+      "https://linkedin.com/company/Ensure-Vei"
     ]
   };
 

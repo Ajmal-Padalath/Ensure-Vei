@@ -110,7 +110,7 @@ export default function Hero({ onOpenConsultationModal }: HeroProps) {
             <div className="relative w-full h-full rounded-3xl overflow-hidden glass shadow-xl border border-white/20 dark:border-slate-800/40 p-4">
               <Image
                 src="/hero-bg.png"
-                alt="SecureShield - Vehicle, Life, Health, Family Protection Services India"
+                alt="Ensure Vei - Vehicle, Life, Health, Family Protection Services India"
                 fill
                 priority
                 className="object-cover rounded-2xl select-none"

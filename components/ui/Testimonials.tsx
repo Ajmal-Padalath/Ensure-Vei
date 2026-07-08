@@ -30,7 +30,7 @@ export default function Testimonials() {
       avatar: "VR",
       color: "from-amber-500 to-orange-600",
       stars: 5,
-      review: "My business and fire insurance policies were expiring, and I needed an immediate renewal. SecureShield got them active within hours. Unbelievably fast policy issuance and extremely professional response.",
+      review: "My business and fire insurance policies were expiring, and I needed an immediate renewal. Ensure Vei got them active within hours. Unbelievably fast policy issuance and extremely professional response.",
     },
   ];
 

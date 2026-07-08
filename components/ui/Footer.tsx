@@ -41,16 +41,16 @@ export default function Footer() {
                 <Shield className="h-6 w-6 text-accent" />
               </div>
               <span className="font-bold text-xl tracking-tight text-white">
-                Secure<span className="text-secondary">Shield</span>
+                Ensure<span className="text-secondary">Vei</span>
               </span>
             </a>
             <p className="text-sm text-slate-400 leading-relaxed font-light">
-              SecureShield Insurance India is a premier, IRDAI-registered insurance advisory firm. We are committed to securing Indian families, vehicles, and businesses with unbiased comparisons and dedicated 24x7 claim-settlement support.
+              Ensure Vei Insurance India is a premier, IRDAI-registered insurance advisory firm. We are committed to securing Indian families, vehicles, and businesses with unbiased comparisons and dedicated 24x7 claim-settlement support.
             </p>
             {/* Social Icons */}
             <div className="flex gap-4">
               <a
-                href="https://facebook.com/secureshield"
+                href="https://facebook.com/Ensure-Vei"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 rounded-xl bg-slate-800 hover:bg-primary hover:text-white transition-colors text-slate-400"
@@ -61,7 +61,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://twitter.com/secureshield"
+                href="https://twitter.com/Ensure-Vei"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 rounded-xl bg-slate-800 hover:bg-primary hover:text-white transition-colors text-slate-400"
@@ -72,7 +72,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://instagram.com/secureshield"
+                href="https://instagram.com/Ensure-Vei"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 rounded-xl bg-slate-800 hover:bg-primary hover:text-white transition-colors text-slate-400"
@@ -85,7 +85,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/company/secureshield"
+                href="https://linkedin.com/company/Ensure-Vei"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 rounded-xl bg-slate-800 hover:bg-primary hover:text-white transition-colors text-slate-400"
@@ -145,9 +145,9 @@ export default function Footer() {
                 <MessageSquare className="h-5 w-5 text-emerald-500 shrink-0 mt-0.5" />
                 <span>WhatsApp: +91 98765 43210</span>
               </a>
-              <a href="mailto:info@secureshieldinsurance.in" className="flex items-start gap-3 hover:text-white transition-colors">
+              <a href="mailto:info@Ensure-Veiinsurance.in" className="flex items-start gap-3 hover:text-white transition-colors">
                 <Mail className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                <span>info@secureshieldinsurance.in</span>
+                <span>info@Ensure-Veiinsurance.in</span>
               </a>
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-accent shrink-0 mt-0.5" />
@@ -158,7 +158,7 @@ export default function Footer() {
             {/* Google Map Embed */}
             <div className="w-full h-32 rounded-2xl overflow-hidden relative border border-slate-800">
               <iframe
-                title="SecureShield Office Map"
+                title="Ensure Vei Office Map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9751092823616!2d77.5922!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c0000001%3A0x6e9f65ad0c0b9bb8!2sM.G.%20Road%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
@@ -173,7 +173,7 @@ export default function Footer() {
 
         {/* Bottom Grid */}
         <div className="flex flex-col sm:flex-row justify-between items-center pt-8 text-xs font-semibold gap-4">
-          <p>© {new Date().getFullYear()} SecureShield Insurance India. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Ensure Vei Insurance India. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
