@@ -5,7 +5,7 @@ import { Phone, MessageSquare, FileText } from "lucide-react";
 
 export default function MobileStickyBar() {
   const telLink = "tel:+919876543210";
-  const whatsappUrl = "https://wa.me/919876543210?text=Hello,%20I'd%20like%20to%20get%20an%20insurance%20quote.";
+  const whatsappUrl = "https://wa.me/918593895186?text=Hello,%20I'd%20like%20to%20get%20an%20insurance%20quote.";
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-t border-slate-200 dark:border-slate-800 shadow-lg px-4 py-3">
