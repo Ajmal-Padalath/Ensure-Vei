@@ -10,6 +10,13 @@ import {
 } from "lucide-react";
 
 export default function Footer() {
+  const handleWhatsAppClick = () => {
+    // Fire-and-forget: send notification email in the background
+    fetch("/api/notify-whatsapp", { method: "POST" }).catch(() => {
+      // Silently ignore errors — never block the user
+    });
+  };
+
   const quickLinks = [
     { name: "Services", href: "#services" },
     { name: "Why Us", href: "#why-choose-us" },
@@ -141,7 +148,13 @@ export default function Footer() {
                 <PhoneCall className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
                 <span>+91 98765 43210</span>
               </a>
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 hover:text-white transition-colors">
+              <a
+                href="https://wa.me/919876543210"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-3 hover:text-white transition-colors"
+                // onClick={handleWhatsAppClick}
+              >
                 <MessageSquare className="h-5 w-5 text-emerald-500 shrink-0 mt-0.5" />
                 <span>WhatsApp: +91 98765 43210</span>
               </a>
